@@ -1,9 +1,9 @@
 # Azure Data Explorer in a Day (Preview)
 
-Welcome to a One Day, Hands on workshop on Azure Data Explorer. Synapse Customer Success Engineering team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
+Welcome to a One Day, Hands on learning on Azure Data Explorer. Synapse Customer Success Engineering team is delighted to present this challenge based, discover by doing experience divided into 2 labs of 4 Hours each, a total of 8 hours.
 
 
-## After the workshop, you'll better understand how to
+## After the Labs, you'll better understand how to
 - Setup Free Azure Data Explorer cluster and database
 - Ingest data into ADX database
 - Run Powerful KQL queries to explore the data
@@ -39,18 +39,16 @@ ADX capabilities are extended by other services built on its powerful query lang
 
 
 ### Scenario 
+GitHub's business team approached you to make sense of their data extracted from different actions happening on GitHub public repos and create a dashboard showing single pane of view using user and repository analytics.
 
-Contoso is a supply chain logistics company that runs a fleet of ships, trucks, and cargo planes to transport and deliver goods around the world. Some of the world’s largest enterprises rely on Contoso’s logistics capabilities to deliver goods to their end customers. Contoso has invested in connecting its fleet with sensors that measure temperature, pressure, humidity, tilt, shock, and light exposure inside its fleet. These sensors emit telemetry data every 1 minute, property data whenever there is a change in the device property, and command data whenever a new command is executed. 
-
-Contoso is looking for suitable analytical solution that provides out of the box integration with Azure services such as storage account for historical load and perform data analysis . Contoso is developing a SaaS application that will allow its customers to track, trace and monitor their shipments. Contoso wants to offer out of the box visualizations with interactive capabilities to enable its customers to drill-in/drill-out of the data. Contoso will offer its customers to view and analyze the last 6 months data. Contoso will retain every customer’s data for up to 1 year. Contoso wants to offer blazing fast loading of visualizations to its customers.
-This workshop walks through the steps in designing, creating, and configuring Azure Data Explorer clusters keeping in mind these requirements. Once the cluster is deployed, this workshop enlists the steps to ingest data into ADX databases and tables using One Click ingestion.
+We use GitHub's Events API that sends events happening across github like push, commit, watch, issue, delete and more listed here [GitHub Events API](https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types).We ingest 2 days worth data into ADX, write KQL queries to explore and visualize GitHub data. 
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
 - Upload the files in Data\Logistics_telemetry_Historical in to a storage account container
 
 ### How to start with ADX
-Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX Workshop Labs will cover all these steps):
+Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX-In-A-Day Labs will cover all these steps):
 1. **Create a free ADX cluster**: To use Azure Data Explorer you first create a free cluster. An Azure Data Explorer cluster is the most basic unit.
 2. **Create database**: Each cluster has one or more databases in that cluster. Each Azure Data Explorer cluster can hold up to 10,000 databases and each database up to 10,000 tables. 
 3. **Ingest data**: Load data into database tables so that you can run queries against it. Azure Data Explorer supports several ingestion methods.

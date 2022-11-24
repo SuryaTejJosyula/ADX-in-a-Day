@@ -45,7 +45,6 @@ We use GitHub's Events API that sends events happening across github like push, 
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
-- Upload the files in Data\Logistics_telemetry_Historical in to a storage account container
 
 ### How to start with ADX
 Generally, when starting with Azure Data Explorer, you will follow the following steps (ADX-In-A-Day Labs will cover all these steps):

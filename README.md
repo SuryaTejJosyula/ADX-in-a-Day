@@ -39,9 +39,7 @@ ADX capabilities are extended by other services built on its powerful query lang
 
 
 ### Scenario 
-GitHub's business team approached you to make sense of their data extracted from different actions happening on GitHub public repos and create a dashboard showing single pane of view using user and repository analytics.
-
-We use GitHub's Events API that sends events happening across github like push, commit, watch, issue, delete and more listed here [GitHub Events API](https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types).We ingest 2 days worth data into ADX, write KQL queries to explore and visualize GitHub data. 
+Contoso is a multinational Steel equipment (Chairs, rods, pipes, kitchenware) manufacturing company. They store all their operational logs in Aure data explorer to perform exploration , forecast and anomaly dection that supports maintainance and performance of their manufacturing plants. Recently they found certain issues with their plant telemetry and approached you to analyse their data. You need to help them by writing KQL queries on 1 GB of contoso's operational logs and build a Dashboard. 
 
 ### Pre-requisites
 - Either a Microsoft account (MSA) or an Azure Active Directory (AAD) identity. This will be used to create free cluster.
